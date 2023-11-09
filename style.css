@@ -1,0 +1,42 @@
+*{
+    padding:0;
+	margin:0;
+	box-sizing:border-box;
+
+}
+.container{
+	width:90%;
+	margin:0 auto;
+}
+section{
+	margin-top:20px;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col{
+	width:33.3%;
+	padding:12px;
+}
+.card{
+	box-shadow:0 0 10px #9e9e9ec7;
+}
+img{
+	width:100%;
+	height:50vh;
+}
+
+.person-info{
+	margin: 12px;
+    padding-bottom: 15px;
+}
+
+.title{
+	padding-bottom: 14px;
+    text-align: center;
+}
+ul li{
+	list-style-type:none;
+	line-height: 1.5;
+}
